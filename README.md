@@ -1,3 +1,6 @@
+<body>
+
+
 # QA-TestSuite
 "suite de pruebas de calidad" contiene todas mis pruebas.
     <ul>
@@ -82,3 +85,6 @@ reports/: Donde se almacenan los informes de pruebas generados por el marco de p
 run_tests.py: Este archivo se utiliza para ejecutar todos los casos de prueba. Puedes personalizarlo para configurar la ejecución de pruebas, informes, etc.
 
 report_template.html: Un archivo de plantilla para informes de pruebas personalizados, si lo necesitas.
+
+
+</body>
