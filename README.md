@@ -3,6 +3,7 @@
 
 
 <p>
+<li>
       project-root/
           ├── tests/
           │   ├── __init__.py
@@ -38,7 +39,7 @@
           │   └── ...
           └── run_tests.py
 
-
+</li>
 </p>
 Descripción de los directorios y archivos:
 
