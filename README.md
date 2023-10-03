@@ -2,7 +2,7 @@
 "suite de pruebas de calidad" contiene todas mis pruebas.
 
 
-
+<p>
       project-root/
           ├── tests/
           │   ├── __init__.py
@@ -39,7 +39,7 @@
           └── run_tests.py
 
 
-
+</p>
 Descripción de los directorios y archivos:
 
 tests/: Este directorio contiene los casos de prueba escritos utilizando el marco unittest. Cada archivo debe comenzar con "test_" y debe importar las páginas y utilidades necesarias.
