@@ -1,44 +1,68 @@
 # QA-TestSuite
 "suite de pruebas de calidad" contiene todas mis pruebas.
-
-
-project-root/
-├── tests/
-│   ├── __init__.py
-│   ├── test_login.py
-│   ├── test_signup.py
-│   └── ... (otros casos de prueba)
-├── pages/
-│   ├── __init__.py
-│   ├── base_page.py
-│   ├── login_page.py
-│   ├── signup_page.py
-│   └── ... (otras páginas)
-├── locators/
-│   ├── __init__.py
-│   ├── login_page_locators.py
-│   ├── signup_page_locators.py
-│   └── ... (otros localizadores)
-├── drivers/
-│   ├── chromedriver.exe (o el controlador de navegador que uses)
-│   ├── geckodriver.exe (si usas Firefox)
-│   └── ...
-├── config/
-│   ├── __init__.py
-│   ├── config.py
-│   └── constants.py
-├── utils/
-│   ├── __init__.py
-│   ├── custom_exceptions.py
-│   ├── test_data.py
-│   └── ...
-├── reports/
-│   ├── report_template.html
-│   └── ...
-└── run_tests.py
-
-
-
+    <ul>
+        <!-- Directorio raíz -->
+        <li class="root">project-root/
+            <ul>
+                <!-- Subdirectorios -->
+                <li class="sublevel">tests/
+                    <ul>
+                        <li>__init__.py</li>
+                        <li>test_login.py</li>
+                        <li>test_signup.py</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">pages/
+                    <ul>
+                        <li>__init__.py</li>
+                        <li>base_page.py</li>
+                        <li>login_page.py</li>
+                        <li>signup_page.py</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">locators/
+                    <ul>
+                        <li>__init__.py</li>
+                        <li>login_page_locators.py</li>
+                        <li>signup_page_locators.py</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">drivers/
+                    <ul>
+                        <li>chromedriver.exe (o el controlador de navegador que uses)</li>
+                        <li>geckodriver.exe (si usas Firefox)</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">config/
+                    <ul>
+                        <li>__init__.py</li>
+                        <li>config.py</li>
+                        <li>constants.py</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">utils/
+                    <ul>
+                        <li>__init__.py</li>
+                        <li>custom_exceptions.py</li>
+                        <li>test_data.py</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">reports/
+                    <ul>
+                        <li>report_template.html</li>
+                        <!-- Agrega más elementos según sea necesario -->
+                    </ul>
+                </li>
+                <li class="sublevel">run_tests.py</li>
+            </ul>
+        </li>
+    </ul>
 Descripción de los directorios y archivos:
 
 tests/: Este directorio contiene los casos de prueba escritos utilizando el marco unittest. Cada archivo debe comenzar con "test_" y debe importar las páginas y utilidades necesarias.
