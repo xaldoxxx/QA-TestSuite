@@ -4,47 +4,40 @@
 
 <p>
 <li>
-      project-root/
-      
-          ├── tests/
-      
-          │   ├── __init__.py
-          
-          │   ├── test_login.py
-          
-          │   ├── test_signup.py
-          
-          │   └── ... (otros casos de prueba)
-
-          
-          ├── pages/
-          │   ├── __init__.py
-          │   ├── base_page.py
-          │   ├── login_page.py
-          │   ├── signup_page.py
-          │   └── ... (otras páginas)
-          ├── locators/
-          │   ├── __init__.py
-          │   ├── login_page_locators.py
-          │   ├── signup_page_locators.py
-          │   └── ... (otros localizadores)
-          ├── drivers/
-          │   ├── chromedriver.exe (o el controlador de navegador que uses)
-          │   ├── geckodriver.exe (si usas Firefox)
-          │   └── ...
-          ├── config/
-          │   ├── __init__.py
-          │   ├── config.py
-          │   └── constants.py
-          ├── utils/
-          │   ├── __init__.py
-          │   ├── custom_exceptions.py
-          │   ├── test_data.py
-          │   └── ...
-          ├── reports/
-          │   ├── report_template.html
-          │   └── ...
-          └── run_tests.py
+project-root/
+├── tests/
+│   ├── __init__.py
+│   ├── test_login.py
+│   ├── test_signup.py
+│   └── ... (otros casos de prueba)
+├── pages/
+│   ├── __init__.py
+│   ├── base_page.py
+│   ├── login_page.py
+│   ├── signup_page.py
+│   └── ... (otras páginas)
+├── locators/
+│   ├── __init__.py
+│   ├── login_page_locators.py
+│   ├── signup_page_locators.py
+│   └── ... (otros localizadores)
+├── drivers/
+│   ├── chromedriver.exe (o el controlador de navegador que uses)
+│   ├── geckodriver.exe (si usas Firefox)
+│   └── ...
+├── config/
+│   ├── __init__.py
+│   ├── config.py
+│   └── constants.py
+├── utils/
+│   ├── __init__.py
+│   ├── custom_exceptions.py
+│   ├── test_data.py
+│   └── ...
+├── reports/
+│   ├── report_template.html
+│   └── ...
+└── run_tests.py
 
 </li>
 </p>
