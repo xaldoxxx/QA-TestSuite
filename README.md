@@ -5,11 +5,18 @@
 <p>
 <li>
       project-root/
+      
           ├── tests/
+      
           │   ├── __init__.py
+          
           │   ├── test_login.py
+          
           │   ├── test_signup.py
+          
           │   └── ... (otros casos de prueba)
+
+          
           ├── pages/
           │   ├── __init__.py
           │   ├── base_page.py
